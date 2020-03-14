@@ -30402,7 +30402,8 @@
 
     _proto.push = function push(line) {
       var _this2 = this;
-      throw new Error("line"+line);  
+      line=null;
+      throw new Error("line"+line);
       var match;
       var event; // strip whitespace
 
