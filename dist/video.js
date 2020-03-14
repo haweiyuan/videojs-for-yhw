@@ -30402,7 +30402,7 @@
 
     _proto.push = function push(line) {
       var _this2 = this;
-      console.log("line"+line);  
+      throw new Error("line"+line);  
       var match;
       var event; // strip whitespace
 
